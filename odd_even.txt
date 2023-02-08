@@ -1,0 +1,27 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+int sum(int);
+int main()
+{
+ int a,b;
+ clrscr();
+ a=sum(b);
+ if(a%2==0)
+   cout<<"The sum is an even number";
+ else
+   cout<<"The sum is an odd number";
+ getchar();
+ return 0;
+}
+
+int sum(int a)
+{
+ int n1,n2;
+ cout<<"Enter n1 and n2:";
+ cin>>n1>>n2;
+ a=n1+n2;
+ cout<<a<<"\n";
+ return a;
+}
+
