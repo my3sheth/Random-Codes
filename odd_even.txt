@@ -1,21 +1,21 @@
 #include<iostream.h>
 #include<stdio.h>
 #include<conio.h>
-int sum(int);
-int main()
+int sum(int); // "sum" function is declared with integer data type
+int main() 
 {
  int a,b;
  clrscr();
- a=sum(b);
- if(a%2==0)
-   cout<<"The sum is an even number";
+ a=sum(b); //"sum" function is assigned to a variable
+ if(a%2==0) //condition check takes place
+   cout<<"The sum is an even number"; 
  else
    cout<<"The sum is an odd number";
  getchar();
  return 0;
 }
 
-int sum(int a)
+int sum(int a) //"sum" function is defined as below
 {
  int n1,n2;
  cout<<"Enter n1 and n2:";
